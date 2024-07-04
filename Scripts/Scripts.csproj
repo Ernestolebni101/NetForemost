@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="scripts\DbStructure.sql" />
+    <None Remove="scripts\Procedures.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="scripts\DbStructure.sql" />
+    <Compile Include="scripts\Procedures.sql" />
+  </ItemGroup>
+
+</Project>
